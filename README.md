@@ -5,6 +5,8 @@ There are two possible ways to execute this project:
  - Portable version that runs on command line with the models we generated (ImageCaptioning)
 
 ## Portable Version
+To execute this, download the ImageCaptioning folder, then you only need to execute the following commands depending on 
+the model you want to test. If you want to test more models, see links below to download them.
 **LSTM** : 
 
 `python3 ImageCaptioning.py -image [image name] -model [squeeze/resnet18] -epoch [numberTrainedEpochs]`
@@ -21,7 +23,8 @@ Change path on:
  - line 511, 514 and 583 
 
 Lines 423 / 442 used to divide the dataset on diferent folders, this process takes a while, so once you have done a first
-run, it is highly recomended to comment this code. 
+run, it is highly recomended to comment this code. Also keep in mind that the Flick8k Dataset must be on the right designed 
+path.
 
 Line 603 -> change the model used to one of the following 
  - resnet18
@@ -32,7 +35,7 @@ Line 603 -> change the model used to one of the following
  - squeeze
  - dense (not tested)
 
-Line 618 -> change number of epochs
+Line 618 -> change number of epochs (default 100 epochs (101 so last iter is also saved)).
 
 ##
 
