@@ -5,9 +5,11 @@ There are two possible ways to execute this project:
  - Portable version that runs on command line with the models we generated (ImageCaptioning)
 
 ## Portable Version
-**LSTM** : `python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs]`
+**LSTM** : 
+`python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs]`
 
-**GRU**  : `python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs] -rnn gru`
+**GRU**  : 
+`python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs] -rnn gru`
 
 ## Whole project execution (UPF cluster)
 This codes is made to run on the UPF cluster, to change the path (just the user uXXXXXX)
