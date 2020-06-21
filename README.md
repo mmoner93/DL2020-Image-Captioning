@@ -6,9 +6,11 @@ There are two possible ways to execute this project:
 
 ## Portable Version
 **LSTM** : 
+
 `python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs]`
 
 **GRU**  : 
+
 `python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs] -rnn gru`
 
 ## Whole project execution (UPF cluster)
