@@ -14,3 +14,6 @@ run, it is highly recomended to comment this code.
 
 Line 603 -> change the model used
 Line 618 -> change number of epochs
+
+To see all models:
+https://drive.google.com/drive/folders/1vxMxWjTeSJ2z_HjyAb9GwXp2gZPQ_Aem?usp=sharing
