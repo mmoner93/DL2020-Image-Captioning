@@ -44,6 +44,8 @@ Line 603 -> change the model used to one of the following
 
 Line 618 -> change number of epochs (default 100 epochs (101 so last iter is also saved)).
 
+> Note that executing **GRU or LSTM** models will both output a _cnn.pkl and a _lstm.pkl file. If the executed model was GRU, just change the name to _gru.pkl
+
 ##
 
 To see all models:
