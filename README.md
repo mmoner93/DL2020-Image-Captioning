@@ -17,6 +17,11 @@ the model you want to test. If you want to test more models, see links below to 
 
 ## Whole project execution (UPF cluster)
 This codes is made to run on the UPF cluster, to change the path (just the user uXXXXXX)
+To run the provided code on the **Project folder** you must also download de .sh files so it can be executed.
+This code will run all steps of the project: preparing the dataset, generating a vocabulary, training, validation and testing.
+It has been slightly modified so any excess code was removed, if any errors pop up please contact us at : 
+ivan.martinez01@estudiant.upf.edu
+marcal.moner01@estudiant.upf.edu
 Change path on: 
  - line 330 / 332
  - line 425 / 427
