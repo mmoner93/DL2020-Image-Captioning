@@ -1,4 +1,10 @@
 # DL2020-Image-Captioning
+
+There are two possible ways to execute this project:
+ - Run on the UPF cluster (Project)
+ - Portable version that runs on command line with the models we generated (ImageCaptioning)
+
+
 LSTM : python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs]
 
 GRU  : python3 ImageCaptioning.py -image [image name] -model [alexnet/squeeze/vgg/resnet18] -epoch [numberTrainedEpochs] -rnn gru
