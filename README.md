@@ -13,6 +13,7 @@ Lines 423 / 442 used to divide the dataset on diferent folders, this process tak
 run, it is highly recomended to comment this code. 
 
 Line 603 -> change the model used
+
 Line 618 -> change number of epochs
 
 To see all models:
