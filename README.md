@@ -19,6 +19,6 @@ Line 618 -> change number of epochs
 To see all models:
 https://drive.google.com/drive/folders/1vxMxWjTeSJ2z_HjyAb9GwXp2gZPQ_Aem?usp=sharing
 
-Add the dataset under a data folder on root directory. Link to dataset:
+Add the dataset under a data/ folder on root directory. Link to dataset:
 https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
 https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
